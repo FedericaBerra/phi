@@ -1,0 +1,192 @@
+*
+{
+  margin:0;
+  padding: 0;
+}
+
+.load
+{
+  animation: slide 2s;
+}
+.slider{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: slide 20s infinite linear;
+}
+
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li
+{
+  display: inline-block;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+main-nav li.active a
+{
+  border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+  float: left;
+  opacity: 0;
+  position: absolute;
+}
+
+body
+{
+  font-family: monospace;
+  background-color: black;
+}
+
+.row
+{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.relative{
+  position: relative;
+  background-color: #fff;
+}
+
+#griglia{
+  position: absolute;
+  top:80px;
+  width: 100%;
+  left: 0%;
+  height: 700px;
+}
+
+#container1{
+  position: absolute;
+  height: 50%;
+  width: 100%;
+}
+#container2{
+  position: absolute;
+  top: 52%;
+  height: 10%;
+  width: 100%;
+}
+
+#container3{
+  position: absolute;
+  top: 64%;
+  height: 50%;
+  width: 100%;
+}
+
+#container4{
+  position: absolute;
+  top: 116%;
+  height: 50%;
+  width: 100%;
+}
+
+#box1{
+  position: absolute;
+  left: 4%;
+  height: 100%;
+  width: 20%;
+  background-color: grey;
+}
+
+#box2{
+  position: absolute;
+  left: 28%;
+  height: 100%;
+  width: 20%;
+  background-color: grey;
+}
+
+#box3{
+  position: absolute;
+  left: 52%;
+  height: 100%;
+  width: 20%;
+  background-color: grey;
+}
+
+#box4{
+  position: absolute;
+  left: 76%;
+  height: 100%;
+  width: 20%;
+  background-color: grey;
+}
+
+#descrizione1{
+  position: absolute;
+  left: 4%;
+  height: 100%;
+  width: 20%;
+  vertical-align: bottom;
+}
+#descrizione2{
+  position: absolute;
+  left: 28%;
+  height: 100%;
+  width: 20%;
+  vertical-align: bottom;
+}
+#descrizione3{
+  position: absolute;
+  left: 52%;
+  height: 100%;
+  width: 20%;
+  vertical-align: bottom;
+}
+
+#descrizione4{
+  position: absolute;
+  left: 76%;
+  height: 100%;
+  width: 20%;
+  vertical-align: bottom;
+}
+
+
+h1 {
+color: white;
+font-family: 'Playfair Display SC', serif;
+font-size: 20px;
+}
+h2 {
+color: grey;
+font-family: "HelveticaNeueW02-75Bold", Helvetica, Arial, sans-serif;
+font-size: 15px;
+}
+p {
+font-family: "HelveticaNeueW02-75Bold", Helvetica, Arial, sans-serif;
+font-style: italic;
+color: grey;
+font-size: 12px;
+}
+
+.box1:hover{
+  opacity: 0.8;
+  background-color: black;
+}
